@@ -1,0 +1,66 @@
+<body>
+
+<header>
+<img id="angularLogo" width="200" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<img id="chef" src="assets/images/chef.png">
+<img id="angularLogo" width="200" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<h1>NG Recipe App!</h1>
+</header>
+
+<div class="mainApp">
+<input type="text" #searchTerm placeholder="Type your food here...">
+		<button id="searchBtn" (click)="searchRecipe(searchTerm.value)">RECIPE ME</button>
+
+<h1>Food Item: {{ recipeName }}</h1>
+<h4>Ingredients: {{ recipeIngredients }}</h4>
+<img src="{{ recipeImage }}">
+
+<h1>Food Item: {{ recipeName1 }}</h1>
+<h4>Ingredients: {{ recipeIngredients1 }}</h4>
+<img src="{{ recipeImage1 }}">
+
+<h1>Food Item: {{ recipeName2 }}</h1>
+<h4>Ingredients: {{ recipeIngredients2 }}</h4>
+<img src="{{ recipeImage2 }}">
+
+<h1>Food Item: {{ recipeName3 }}</h1>
+<h4>Ingredients: {{ recipeIngredients3 }}</h4>
+<img src="{{ recipeImage3 }}">
+
+<h1>Food Item: {{ recipeName4 }}</h1>
+<h4>Ingredients: {{ recipeIngredients4 }}</h4>
+<img src="{{ recipeImage4 }}">
+
+<h1>Food Item: {{ recipeName5 }}</h1>
+<h4>Ingredients: {{ recipeIngredients5 }}</h4>
+<img src="{{ recipeImage5 }}">
+
+<h1>Food Item: {{ recipeName6 }}</h1>
+<h4>Ingredients: {{ recipeIngredients6 }}</h4>
+<img src="{{ recipeImage6 }}">
+
+<h1>Food Item: {{ recipeName7 }}</h1>
+<h4>Ingredients: {{ recipeIngredients7 }}</h4>
+<img src="{{ recipeImage7 }}">
+
+<h1>Food Item: {{ recipeName8 }}</h1>
+<h4>Ingredients: {{ recipeIngredients8 }}</h4>
+<img src="{{ recipeImage8 }}">
+
+<h1>Food Item: {{ recipeName9 }}</h1>
+<h4>Ingredients: {{ recipeIngredients9 }}</h4>
+<img src="{{ recipeImage9 }}">
+
+<!-- <div *ngFor="let r of recipeArray">
+	<h4>{{r.hits}}</h4>
+	<ul>
+		<li>{{r.label}}</li>
+		<li>{{r.dietLabels}}</li>
+	</ul>
+	
+</div> -->
+</div>
+
+</body>
+
+

@@ -1,0 +1,73 @@
+body{
+	margin: -10px;
+	padding: -10px;
+	background-color: #8810E8;
+}
+
+header{
+	text-align: center;
+}
+
+header h1{
+	color: #FFD209;
+	font-family: 'Apple Chancery';
+	font-size: 75px;
+	font-weight: none;
+}
+
+#searchBtn{
+	margin-left: 5px;
+	background-color: #FFC10E;
+	color: black;
+	text-align: center;
+	width: 80px;
+	height: 40px;
+	cursor: pointer;
+}
+
+#searchBtn:hover{
+	margin-left: 5px;
+	background-color: #4618A1;
+	color: white;
+	text-align: center;
+	width: 80px;
+	height: 40px;
+	-moz-transition-duration: .5s;
+	-ms-transition-duration: .5s;
+	-o-transition-duration: .5s;
+	-webkit-transition-duration: .5s;
+	transition-duration: .5s;
+}
+
+#chef{
+	margin: 0px auto;
+	width: 300px;
+}
+
+.mainApp{
+	margin: 0px auto;
+	text-align: center;
+}
+
+.mainApp h1{
+	margin: 0px auto;
+	text-align: center;
+	color: #FFC10E;
+	font-family: helvetica;
+	margin-top: 10px;
+}
+
+.mainApp h4{
+	margin: 0px auto;
+	text-align: center;
+	color: white;
+	font-family: helvetica;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+
+
+
+
+
